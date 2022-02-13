@@ -17,37 +17,44 @@
     />
 
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@500;700&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Yomar Miranda | 404 Not Found</title>
   </head>
   <body>
-    <header>
-      <h2>404 Not Found</h2>
+    <header class="header">
+      <h2 class="header__title">404 Not Found</h2>
     </header>
 
-    <main>
-      <figure>
-        <img src="scarecrow.png" alt="Scarecrow" />
+    <main class="main">
+      <figure class="main__figure">
+        <img class="main__image" src="scarecrow.png" alt="Scarecrow" />
       </figure>
 
-      <article>
-        <h1>I have bad news for you</h1>
+      <article class="main__content">
+        <h1 class="main__title">I have bad news for you</h1>
 
-        <p>
+        <p class="main__content">
           The page you are looking for might be removed or is temporarily
           unavailable
         </p>
 
-        <button>Back to homepage</button>
+        <button class="main__button">Back to homepage</button>
       </article>
     </main>
 
-    <footer>
+    <footer class="footer">
       created by
       <a
         href="https://github.com/yomar-dev/404-not-found"
         target="_blank"
         rel="noopener noreferrer"
+        class="footer__link"
         >yomar-dev</a
       >
       - devChallenges.io
